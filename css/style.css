@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=News+Cycle&family=Questrial&display=swap");
+
+/*body, 初期設定用?*/
+body {
+  /*チェック用*/
+  /* background-color: rgb(128, 128, 128); */
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+}
+
+/*.wrapper*/
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*canvas*/
+canvas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*header*/
+header {
+  font-family: "Advent Pro", sans-serif;
+  padding-top: 0;
+  padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+/*.titile*/
+.title {
+  color: rgb(0, 0, 0);
+  font-family: "Advent Pro", sans-serif;
+  font-size: 32px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  border-bottom: solid 1.2px rgb(0, 0, 0);
+  letter-spacing: 0.166667em;
+  margin-top: 0;
+}
+
+/*.icons*/
+.icons {
+  text-align: center;
+}
+
+/*.icon*/
+.icon {
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.icon:hover {
+  transition: 0.15s ease-in 0s;
+  color: rgb(238, 0, 0);
+  border-color: rgb(238, 0, 0);
+}
+
+/*.container*/
+.container {
+  display: flex;
+}
+
+/*menu*/
+.menu {
+  background-color: #7d7b83;
+  width: 15%;
+  text-align-last: end;
+  padding-right: 0.1em;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/*.ui.vertial.text.menu*/
+.ui.vertical.text.menu {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.166667em;
+  font-weight: bolder;
+  font-size: 16px;
+  width: auto; /*これだ!!*/
+  padding-top: 12px;
+}
+
+.ui.vertical.text.menu > .header.item {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/*a*/
+a {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  transition: 0.15s ease-in 0s;
+  color: rgb(238, 0, 0);
+  border-color: rgb(238, 0, 0);
+}
+
+.item > a {
+  font-weight: bold;
+  border-bottom: black solid 1.32px;
+}
+
+/*.main*/
+.main {
+  width: 60%;
+}
+
+.ui.items {
+  margin-left: 10px;
+}
+
+/*.ui.items > .item > .content*/
+.ui.items > .item > .content {
+  padding-top: 0.6em;
+  padding-bottom: 2.4em;
+  text-align: center;
+}
+
+/*.ui.items > .item > .content > a.header*/
+.ui.items > .item > .content > a.header {
+  letter-spacing: 0.166667em;
+  font-weight: bolder;
+}
+
+.ui.items > .item > .content > a.header:hover {
+  transition: 0.15s ease-in 0s;
+  color: rgb(238, 0, 0);
+  border-color: rgb(238, 0, 0);
+}
+
+/* 
+.ui.items > .item > .content.about {
+  background-image: url("file:///C:/Users/nori7/Pictures/myimage.jpg");
+  height: 400px;
+  background-size: 160%;
+
+}
+
+.ui.items > .item > .content > .about.img {
+  background: rgba(255, 255, 255, 0.5);
+  height: 400px;
+}
+*/
+
+/*About アイコン画像*/
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/*CodePen 埋め込み位置編集*/
+.cp_embed_wrapper {
+  margin-top: 20px;
+}
+
+/*.sns*/
+.sns {
+  width: 25%;
+  text-align: center;
+}
+
+/*.twitter-timeline*/
+.twitter-timeline {
+  border-radius: 10px;
+}
+
+/*footer*/
+footer {
+  padding-top: 10px;
+  height: 84px;
+  background: rgb(250, 250, 250);
+  color: #00000099;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "News Cycle", sans-serif;
+  font-family: "Questrial", sans-serif;
+  text-align: center;
+  border-top: solid 1.2px rgb(0, 0, 0);
+}
