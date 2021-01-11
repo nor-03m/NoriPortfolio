@@ -4,8 +4,6 @@
 
 /*body, 初期設定用?*/
 body {
-  /*チェック用*/
-  /* background-color: rgb(128, 128, 128); */
   background-color: rgb(250, 250, 250);
   margin: 0;
 }
@@ -29,10 +27,11 @@ canvas {
 header {
   font-family: "Advent Pro", sans-serif;
   padding-top: 0;
-  padding-bottom: 32px;
+  /*padding-bottom: 32px;*/
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 /*.titile*/
@@ -55,12 +54,13 @@ header {
 /*.icon*/
 .icon {
   color: black;
-  border: 1px solid rgb(0, 0, 0);
+  /*border: 1px solid rgb(0, 0, 0);*/
 }
 
 .icon:hover {
   transition: 0.15s ease-in 0s;
-  color: rgb(238, 0, 0);
+  color: rgb(255, 147, 128);
+  /*color: rgb(238, 0, 0);*/
   border-color: rgb(238, 0, 0);
 }
 
@@ -101,7 +101,8 @@ a {
 
 a:hover {
   transition: 0.15s ease-in 0s;
-  color: rgb(238, 0, 0);
+  color: rgb(255, 147, 128);
+  /*color: rgb(238, 0, 0);*/
   border-color: rgb(238, 0, 0);
 }
 
@@ -134,7 +135,8 @@ a:hover {
 
 .ui.items > .item > .content > a.header:hover {
   transition: 0.15s ease-in 0s;
-  color: rgb(238, 0, 0);
+  color: rgb(255, 147, 128);
+  /*color: rgb(238, 0, 0);*/
   border-color: rgb(238, 0, 0);
 }
 
@@ -153,7 +155,7 @@ a:hover {
 */
 
 /*About アイコン画像*/
-img {
+.profile.image > img {
   width: 140px;
   height: 140px;
   object-fit: cover;
@@ -162,19 +164,31 @@ img {
 }
 
 /*CodePen 埋め込み位置編集*/
-.cp_embed_wrapper {
+/*.cp_embed_wrapper {
   margin-top: 20px;
-}
-
-/*
-video {
-  padding-top: 6em;
-  background: #faf;
-}
-*/
+}*/
 
 p {
   font-family: "Sawarabi Gothic", sans-serif;
+}
+
+.works {
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+iframe {
+  border: none;
+  width: 80%;
+  height: 80vh;
+}
+
+.create {
+  padding-top: 0.6em;
+  padding-bottom: 2.4em;
+}
+
+.description {
+  padding: 2.4em;
 }
 
 /*.sns*/
