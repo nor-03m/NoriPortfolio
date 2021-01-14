@@ -72,7 +72,7 @@ header {
 /*menu*/
 .menu {
   background-color: #7d7b83;
-  width: 15%;
+  width: 15vw;
   text-align-last: end;
   padding-right: 0.1em;
   border-top-right-radius: 12px;
@@ -178,12 +178,12 @@ p {
 
 /*↓ vido & iframe*/
 video {
-  width: 80%; /*need change*/
+  width: 48vw;
 }
 
 iframe {
   border: none;
-  width: 80%;
+  width: 48vw;
   height: 80vh; /*need change*/
 }
 /*↑ video & iframe*/
@@ -199,7 +199,7 @@ iframe {
 
 /*.sns*/
 .sns {
-  width: 25%;
+  width: 25vw;
   text-align: center;
 }
 
