@@ -176,11 +176,17 @@ p {
   font-family: "Sawarabi Gothic", sans-serif;
 }
 
+/*↓ vido & iframe*/
+video {
+  width: 48vw;
+}
+
 iframe {
   border: none;
-  width: 50vw;
-  height: 80vh;
+  width: 48vw;
+  height: 80vh; /*need change*/
 }
+/*↑ video & iframe*/
 
 .create {
   padding-top: 0.6em;
