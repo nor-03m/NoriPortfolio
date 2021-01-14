@@ -38,91 +38,102 @@ canvas {
 }
 /*↑ canvas*/
 
-/*.titile*/
+/*↓ titile*/
 .title {
   color: rgb(4, 4, 4);
   font-family: "Advent Pro", sans-serif;
-  font-size: 32px;
-  padding-top: 32px;
-  padding-bottom: 16px;
-  border-bottom: solid 1.2px rgb(0, 0, 0);
+  font-size: 2.4rem;
+  padding-top: 2.4rem;
+  padding-bottom: 1.2rem;
+  border-bottom: solid 1.2px rgb(4, 4, 4);
   letter-spacing: 0.166667em;
   margin-top: 0;
 }
+/*↑ title*/
 
-/*.icons*/
+/*↓ icons*/
 .icons {
   text-align: center;
 }
+/*↑ icons*/
 
-/*.icon*/
+/*↓ icon*/
 .icon {
-  color: black;
+  color: rgb(4, 4, 4);
   /*border: 1px solid rgb(0, 0, 0);*/
 }
+/*↑ icon*/
 
+/*↓ icon hover*/
 .icon:hover {
   transition: 0.15s ease-in 0s;
   color: rgb(255, 147, 128);
   /*color: rgb(238, 0, 0);*/
-  border-color: rgb(238, 0, 0);
+  /*border-color: rgb(238, 0, 0);*/
 }
+/*↑ icon hover*/
 
-/*.container*/
+/*↓ container*/
 .container {
   display: flex;
 }
+/*↑ container*/
 
-/*menu*/
+/*↓ menu*/
 .menu {
   background-color: #7d7b83;
   width: 15vw;
   text-align-last: end;
-  padding-right: 0.1em;
+  padding-right: 0.1rem;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+/*↑ menu*/
 
-/*.ui.vertial.text.menu*/
+/*↓ ui.vertial.text.menu*/
 .ui.vertical.text.menu {
   font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
   letter-spacing: 0.166667em;
   font-weight: bolder;
-  font-size: 16px;
   width: auto; /*これだ!!*/
-  padding-top: 12px;
+  padding-top: 1.2rem;
 }
 
+/*↓ ui.vertical.tex.menu > .heaader.item*/
 .ui.vertical.text.menu > .header.item {
-  font-size: 16px;
-  margin-bottom: 16px;
+  color: rgb(4, 4, 4);
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
 }
+/*↑ ui.vertical.text.menu > .header.item*/
 
-/*a*/
+/*↓ a*/
 a {
-  color: rgb(0, 0, 0);
+  color: rgb(4, 4, 4);
 }
+/*↑ a*/
 
+/*↓ a:hover*/
 a:hover {
   transition: 0.15s ease-in 0s;
   color: rgb(255, 147, 128);
   /*color: rgb(238, 0, 0);*/
-  border-color: rgb(238, 0, 0);
 }
+/*↑ a:hover*/
 
+/*↓ item > a*/
 .item > a {
   font-weight: bold;
-  border-bottom: black solid 1.32px;
+  border-bottom: rgb(4, 4, 4) solid 1.32px;
 }
+/*↑ item > a*/
 
-/*.main*/
+/*↓ main*/
 .main {
-  width: 60%;
+  width: 60vw;
 }
-
-.ui.items {
-  margin-left: 10px;
-}
+/*↑ main*/
 
 /*.ui.items > .item > .content*/
 .ui.items > .item > .content {
@@ -141,22 +152,12 @@ a:hover {
   transition: 0.15s ease-in 0s;
   color: rgb(255, 147, 128);
   /*color: rgb(238, 0, 0);*/
-  border-color: rgb(238, 0, 0);
-}
-
-/* 
-.ui.items > .item > .content.about {
-  background-image: url("file:///C:/Users/nori7/Pictures/myimage.jpg");
-  height: 400px;
-  background-size: 160%;
-
 }
 
 .ui.items > .item > .content > .about.img {
   background: rgba(255, 255, 255, 0.5);
   height: 400px;
 }
-*/
 
 /*About アイコン画像*/
 .profile.image > img {
@@ -201,20 +202,23 @@ iframe {
   padding: 2.4em;
 }
 
-/*.sns*/
+/*↓ sns*/
 .sns {
-  width: 25vw;
-  text-align: center;
+  width: 24.5vw;
+  margin-right: 0.5vw;
+  /*text-align: center;*/
 }
+/*↑ sns*/
 
-/*.twitter-timeline*/
+/*↓ twitter-timeline*/
 .twitter-timeline {
   border-radius: 10px;
 }
+/*↑ twitter-timeline*/
 
-/*footer*/
+/*↓ footer*/
 footer {
-  padding-top: 10px;
+  padding-top: 1.2rem;
   height: 126px;
   background: rgb(250, 250, 250);
   color: #00000099;
@@ -222,5 +226,6 @@ footer {
   font-family: "News Cycle", sans-serif;
   font-family: "Questrial", sans-serif;
   text-align: center;
-  border-top: solid 1.2px rgb(0, 0, 0);
+  border-top: solid 1.2px rgb(4, 4, 4);
 }
+/*↑ footer*/
