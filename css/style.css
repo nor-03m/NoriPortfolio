@@ -2,28 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=News+Cycle&family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
 
-/*body, 初期設定用?*/
+/*↓ body, 初期設定用?*/
 body {
   background-color: rgb(250, 250, 250);
   margin: 0;
 }
+/*↑ body*/
 
-/*.wrapper*/
+/*↓ wrapper*/
 .wrapper {
   width: 100%;
   height: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
+/*↑ wrapper*/
 
-/*canvas*/
-canvas {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/*header*/
+/*↓ header*/
 header {
   font-family: "Advent Pro", sans-serif;
   padding-top: 0;
@@ -33,13 +28,22 @@ header {
   text-align: center;
   margin-bottom: 32px;
 }
+/*↑ header*/
+
+/*↓ canvas*/
+canvas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/*↑ canvas*/
 
 /*.titile*/
 .title {
-  color: rgb(0, 0, 0);
+  color: rgb(4, 4, 4);
   font-family: "Advent Pro", sans-serif;
-  font-size: 32px;
-  padding-top: 32px;
+  font-size: 6vw; /*32px*/
+  padding-top: 32px; /*32px*/
   padding-bottom: 16px;
   border-bottom: solid 1.2px rgb(0, 0, 0);
   letter-spacing: 0.166667em;
