@@ -42,8 +42,8 @@ canvas {
 .title {
   color: rgb(4, 4, 4);
   font-family: "Advent Pro", sans-serif;
-  font-size: 4vw;
-  padding-top: 32px; /*32px*/
+  font-size: 32px;
+  padding-top: 32px;
   padding-bottom: 16px;
   border-bottom: solid 1.2px rgb(0, 0, 0);
   letter-spacing: 0.166667em;
