@@ -178,12 +178,12 @@ p {
 
 /*↓ vido & iframe*/
 video {
-  width: 48vw;
+  width: 80%; /*need change*/
 }
 
 iframe {
   border: none;
-  width: 48vw;
+  width: 80%;
   height: 80vh; /*need change*/
 }
 /*↑ video & iframe*/
